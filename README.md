@@ -4,7 +4,7 @@ A basic vulnerable server for buffer overflow studies.
 
 ---
 
-This is a simple server that listens on port 9999 for TCP connections. It's useful for the first steps in learning about buffer overflow and reverse engineering.
+This is a simple server that listens on port 9999 for TCP connections. It's useful for the first steps in learning about buffer overflow and disassembling.
 
 The server uses a DLL with a gadget that helps point to the shellcode address. The gadget is written directly in assembly for better control in this case study.
 
