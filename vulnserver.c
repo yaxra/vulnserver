@@ -1,5 +1,5 @@
 /**
- * Author: emowtet
+ * Author: yaxra
  * Purposefully designed vulnerable server intended for buffer overflow studies.
  * After receiving a connection, the client should send a name. The server, however, won't correctly check the buffer size.
  */
